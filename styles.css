@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+#textBox {
+  font-family: 'Consolas';
+  color: white;
+  width: 800px;
+  background-color: #00204d;
+}
+
+#textBoxData {
+  height: 500px;
+  background-color: #00204d;
+  padding: 15px;
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
+
+#textBoxHeading {
+  background-color: #00122b;
+  padding: 15px;
+}
+
+#dataInputBox {
+  width: 650px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  color: white;
+  background-color: #003988;
+  height: 55px;
+  font-size: 20px;
+}
+
+#dataInputBox:focus {
+  outline: none;
+}
+
+button {
+  padding: 16px 32px;
+  text-align: center;
+  font-family: 'Consolas';
+  font-weight: bold;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+}
+
+#startButton {
+  background-color: #1FD78D;
+  border: 2px solid #35c93a;
+}
+
+#stopButton {
+  background-color: #F62451;
+  border: 2px solid #ac1111;
+}
+
+#sendButton {
+  background-color: #003988;
+  color: white;
+}
